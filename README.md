@@ -1,48 +1,48 @@
 # Ex-04-Multivariate-Analysis
 
-## AIM:
+## AIM :
 
 To perform Multivariate EDA on the given data set.
 
-## EXPLANATION:
+## EXPLANATION :
 
 Exploratory data analysis is used to understand the messages within a dataset. This technique involves many iterative processes to ensure that the cleaned data is further sorted to better understand the useful meaning.The primary aim with exploratory analysis is to examine the data for distribution, outliers and anomalies to direct specific testing of your hypothesis.
 
-## ALGORITHM:
+## ALGORITHM :
 
-## STEP 1:
+## STEP 1 :
 
 Import the built libraries required to perform EDA and outlier removal.
 
-## STEP 2:
+## STEP 2 :
 
 Read the given csv file.
 
-## STEP 3:
+## STEP 3 :
 
 Convert the file into a dataframe and get information of the data.
 
-## STEP 4:
+## STEP 4 :
 
 Return the objects containing counts of unique values using (value_counts()).
 
-## STEP 5:
+## STEP 5 :
 
 Plot the counts in the form of Histogram or Bar Graph.
 
-## STEP 6:
+## STEP 6 :
 
 Use seaborn the bar graph comparison of data can be viewed.
 
-## STEP 7:
+## STEP 7 :
 
 Find the pairwise correlation of all columns in the dataframe.corr() .
 
-## STEP 8:
+## STEP 8 :
 
 Save the final data set into the file.
 
-## Program:
+## Program : 
 
 ```import pandas as pd
 import numpy as np
@@ -100,62 +100,62 @@ data.corr()
 sns.heatmap(data.corr(),annot=True)
 ```
 
-## OUTPUT:
+## OUTPUT :
 
-## DATASET:
+## DATASET :
 
 ![](o1.png)
 
-## HEAD():
+## HEAD() :
 
 ![](o2.png)
 
-## INFO():
+## INFO() :
 
 ![](o3.png)
 
-## DESCRIBE():
+## DESCRIBE() :
 
 ![](o4.png)
 
-## DATATYPE():
+## DATATYPE() :
 
 ![](o5.png)
 
-## ISNULL():
+## ISNULL() :
 
 ![](o6.png)
 
-## Postal code has outliers:
+## Postal code has outliers :
 
 ![](o7.png)
 
-## After removing outliers from Postal Code:
+## After removing outliers from Postal Code :
 
-## MULTIVARIATE ANALYSIS:
+## MULTIVARIATE ANALYSIS :
 
-## SCATTER PLOT:
+## SCATTER PLOT :
 
 ![](o8.png)
 
-## BARPLOT:
+## BARPLOT :
 
 ![](o9.png)
 
 ![](o10.png)
 
-## SEGMENTATION:
+## SEGMENTATION :
 
 ![](o11.png)
 
-## CORRESSION:
+## CORRESSION :
 
 ![](o13.png)
 
-## HEATMAP():
+## HEATMAP() :
 
 ![](o12.png)
 
-## RESULT:
+## RESULT :
 
 Hence The Performance of the Multivariate EDA on the given data set is verified.
